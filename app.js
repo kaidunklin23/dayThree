@@ -8,28 +8,27 @@ var mArray = [
       console.log(mArray[k][j]);
     }
   }
-  petArray = [ [ ["fish",2] , ["dog", 4 ] , [ ["hamster" , 6] , [ "snake",8] ] , [ "cat",10 ] ];
-
+  
+  petArray =  [ ["fish",2] , ["dog", 4 ] , [ ["hamster" , 6] , [ "snake",8] ] , [ "cat",10 ] ];
+  
   function greaterThan(val1,val2) {
     if (val > val2) {
-     
       return val1;
     }
-    else (val < val2) {
-     
+      else { (val < val2) 
       return val2;
     }}
-
-  console.log(greaterThan);
-
-  chicken =1;
-    duck=[1];
-
+  
+    console.log(greaterThan);
+  
+  chicken = 1;
+    duck= 1;
+   
     function theyEqual(chicken, duck) {
-    if(chicken !== duck) {
+    if (chicken !== duck) {
         return(theyEqual) = "They are equal";
     } else {
         return(theyEqual) = "they are not equal";
     }
 }
-console.log(theyEqual());
+console.log(theyEqual(duck, chicken));
